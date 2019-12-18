@@ -13,7 +13,8 @@ int main(void)
     // Repeat until a valid positive number is entered
     do
     {
-        bal = get_float("How much change is owed?\n");               } while(bal <0);
+        bal = get_float("How much change is owed?\n");               
+    } while(bal <0);
    
    // Convert dollars into cents
    // For example: if change = 9.75 then cents = 975.00
