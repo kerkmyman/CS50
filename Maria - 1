@@ -6,15 +6,14 @@
 
 int main(void)
 {
-    char length;
-    int n = 0;
+    //variable store the length of the pyramid
+    int n;
     
     // Input from the user
     // Repeat the prompt until a valid number between 1 and 8 is entered
     do
     {
-        length = get_char("Height: "); 
-        n = atoi(&length);       
+        n = get_int("Height between 1 and 8: ");      
     }
     while (n < 1 || n > 8);
     
